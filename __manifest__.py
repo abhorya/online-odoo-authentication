@@ -1,6 +1,6 @@
 {
     'name': "Online Odoo Authentication",
-    'version': '1.0',
+    'version': '18.0.1.0.0',
     'summary': "Authenticate to the online Odoo instance using preset credentials",
     'description': """
         This module provides a website form that lets you authenticate to your online Odoo instance.
@@ -18,6 +18,7 @@
         - Sync Reports: Track synchronization history and results
         - API Endpoints: Access attendance data through REST API endpoints
         - Company Credentials Management: Store and manage multiple company credentials
+        - License Management: Commercial licensing system with trial and full versions
     """,
     'category': 'Website',
     'author': "Sabry Youssef",

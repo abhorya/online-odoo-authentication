@@ -1,8 +1,17 @@
-# Online Odoo Authentication
+# Online Odoo Authentication (Odoo 18.0)
 
 A comprehensive Odoo module for authenticating to online Odoo instances and synchronizing attendance records.
 
 ![Banner](static/description/banner.png)
+
+## Compatibility
+
+This branch is compatible with Odoo 18.0.
+
+For other versions:
+- [Odoo 17.0](https://github.com/abhorya/online-odoo-authentication/tree/17.0) (coming soon)
+- [Odoo 16.0](https://github.com/abhorya/online-odoo-authentication/tree/16.0) (coming soon)
+- [Odoo 15.0](https://github.com/abhorya/online-odoo-authentication/tree/15.0) (coming soon)
 
 ## Features
 
