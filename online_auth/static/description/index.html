@@ -1,123 +1,96 @@
-<section class="oe_container">
-    <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color:#875A7B;">Online Odoo Authentication</h2>
-        <h3 class="oe_slogan">Seamless Authentication and Attendance Synchronization</h3>
-        <div class="oe_demo oe_picture oe_screenshot">
-            <img src="banner.png">
-        </div>
-    </div>
-</section>
-
-<section class="oe_container oe_dark">
-    <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color:#875A7B;">Key Features</h2>
-        <div class="oe_span6">
-            <div class="oe_demo oe_picture oe_screenshot">
-                <img src="feature1.png">
-            </div>
-        </div>
-        <div class="oe_span6">
-            <p class="oe_mt32 text-justify">
-                <strong>Authentication Form</strong>: A website form that lets you authenticate to your online Odoo instance with preset credentials.
-            </p>
-            <p class="text-justify">
-                <strong>Attendance Synchronization</strong>: Sync attendance records from your local instance to a remote Odoo instance.
-            </p>
-            <p class="text-justify">
-                <strong>Employee Mapping</strong>: Map local employees to remote employees using employee numbers.
-            </p>
-            <p class="text-justify">
-                <strong>Sync Reports</strong>: Track synchronization history and results.
-            </p>
-            <p class="text-justify">
-                <strong>API Endpoints</strong>: Access attendance data through REST API endpoints.
-            </p>
-        </div>
-    </div>
-</section>
-
-<section class="oe_container">
-    <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color:#875A7B;">Authentication Process</h2>
-        <div class="oe_span6">
-            <p class="oe_mt32 text-justify">
-                The module provides a simple web form to authenticate to your remote Odoo instance. The form is pre-populated with default credentials, but you can customize them as needed.
-            </p>
-            <p class="text-justify">
-                Once authenticated, you can access the remote instance's data and synchronize attendance records between the two instances.
-            </p>
-        </div>
-        <div class="oe_span6">
-            <div class="oe_demo oe_picture oe_screenshot">
-                <img src="auth_form.png">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center">Online Odoo Authentication</h1>
+            <h3 class="text-center">Authenticate to online Odoo instances and synchronize attendance records</h3>
+            <div class="text-center">
+                <img src="banner.png" class="img-fluid" alt="Online Odoo Authentication Banner">
             </div>
         </div>
     </div>
-</section>
 
-<section class="oe_container oe_dark">
-    <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color:#875A7B;">Attendance Synchronization</h2>
-        <div class="oe_span6">
-            <div class="oe_demo oe_picture oe_screenshot">
-                <img src="sync_process.png">
-            </div>
-        </div>
-        <div class="oe_span6">
-            <p class="oe_mt32 text-justify">
-                The module allows you to synchronize attendance records between your local and remote Odoo instances. You can preview the records before synchronization and track the synchronization history.
-            </p>
-            <p class="text-justify">
-                The synchronization process maps employees between the two instances using employee numbers, ensuring that attendance records are correctly associated with the right employees.
-            </p>
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <h2 class="text-center">Key Features</h2>
         </div>
     </div>
-</section>
 
-<section class="oe_container">
-    <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color:#875A7B;">API Access</h2>
-        <div class="oe_span6">
-            <p class="oe_mt32 text-justify">
-                The module provides an API endpoint to access attendance records:
-            </p>
-            <ul>
-                <li>GET <code>/online/auth/attendance</code>: Returns all attendance records in JSON format</li>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h3>Authentication</h3>
+                    <p>Authenticate to your online Odoo instance with preset credentials</p>
+                    <img src="authentication.png" class="img-fluid" alt="Authentication Feature">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h3>Attendance Sync</h3>
+                    <p>Synchronize attendance records between local and remote Odoo instances</p>
+                    <img src="sync_wizard.png" class="img-fluid" alt="Attendance Sync Feature">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h3>License Management</h3>
+                    <p>Commercial licensing system with trial and full versions</p>
+                    <img src="license_management.png" class="img-fluid" alt="License Management Feature">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h3>Sync Reports</h3>
+                    <p>Track synchronization history and results</p>
+                    <img src="sync_reports.png" class="img-fluid" alt="Sync Reports Feature">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h3>Employee Mapping</h3>
+                    <p>Map local employees to remote employees using employee numbers</p>
+                    <img src="thumbnail.png" class="img-fluid" alt="Employee Mapping Feature">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <h2 class="text-center">Benefits</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Seamless integration between local and remote Odoo instances</li>
+                <li class="list-group-item">Automated attendance synchronization saves time and reduces errors</li>
+                <li class="list-group-item">Comprehensive reporting for tracking synchronization status</li>
+                <li class="list-group-item">Flexible licensing options to fit your business needs</li>
+                <li class="list-group-item">Easy to use interface with minimal configuration</li>
             </ul>
-            <p class="text-justify">
-                This allows you to integrate the attendance data with other systems or applications.
-            </p>
-        </div>
-        <div class="oe_span6">
-            <div class="oe_demo oe_picture oe_screenshot">
-                <img src="api_access.png">
-            </div>
         </div>
     </div>
-</section>
 
-<section class="oe_container oe_dark">
-    <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color:#875A7B;">Technical Information</h2>
-        <div class="oe_span12">
-            <p class="oe_mt32 text-center">
-                <strong>Version</strong>: 1.0<br/>
-                <strong>Category</strong>: Website<br/>
-                <strong>Dependencies</strong>: website, base, hr, hr_attendance<br/>
-            </p>
+    <div class="row mt-4">
+        <div class="col-md-12 text-center">
+            <h2>Support</h2>
+            <p>For support, please contact:</p>
+            <p><strong>Email:</strong> sabry_youssef@me.com</p>
+            <p><strong>Website:</strong> <a href="https://github.com/sabry-youssef">https://github.com/sabry-youssef</a></p>
         </div>
     </div>
-</section>
 
-<section class="oe_container">
-    <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color:#875A7B;">Contact Information</h2>
-        <div class="oe_span12">
-            <p class="oe_mt32 text-center">
-                <strong>Author</strong>: Sabry Youssef<br/>
-                <strong>Email</strong>: sabry_youssef@me.com<br/>
-                <strong>Phone</strong>: 00201000059085<br/>
-            </p>
+    <div class="row mt-4">
+        <div class="col-md-12 text-center">
+            <p>© 2025 Sabry Youssef - Online Odoo Authentication Module</p>
         </div>
     </div>
-</section> 
+</div> 
